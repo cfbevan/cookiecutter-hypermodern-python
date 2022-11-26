@@ -1,6 +1,13 @@
 repos:
   - repo: local
     hooks:
+      - id: bandit
+        name: bandit
+        entry: bandit
+        language: system
+        types: [python]
+        requires_Serial: true
+        args: ["-c", "bandit.yml"]
       - id: black
         name: black
         entry: black
@@ -64,3 +71,9 @@ repos:
     rev: v2.6.0
     hooks:
       - id: prettier
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: master
+    hooks:
+      - id: commitizen
+      - id: commitizen-branch
+        stages: [push]

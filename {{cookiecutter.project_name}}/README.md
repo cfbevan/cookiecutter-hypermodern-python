@@ -1,9 +1,11 @@
 # {{ cookiecutter.friendly_name }}
 
 [![PyPI](https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg)][pypi status]
+[![Docker Hub](https://img.shields.io/docker/cloud/build/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}.svg)](https://hub.docker.com/r/{{cookiecutter.github_user}}/{{cookiecutter.project_name}})
 [![Status](https://img.shields.io/pypi/status/{{cookiecutter.project_name}}.svg)][pypi status]
 [![Python Version](https://img.shields.io/pypi/pyversions/{{cookiecutter.project_name}})][pypi status]
 [![License](https://img.shields.io/pypi/l/{{cookiecutter.project_name}})][license]
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)][code of conduct]
 
 [![Read the documentation at https://{{cookiecutter.project_name}}.readthedocs.io/](https://img.shields.io/readthedocs/{{cookiecutter.project_name}}/latest.svg?label=Read%20the%20Docs)][read the docs]
 [![Tests](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg)][tests]
@@ -69,3 +71,4 @@ This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter]
 [license]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE
 [contributor guide]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/CONTRIBUTING.md
 [command-line reference]: https://{{cookiecutter.project_name}}.readthedocs.io/en/latest/usage.html
+[code of conduct]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/CODE_OF_CONDUCT.md
